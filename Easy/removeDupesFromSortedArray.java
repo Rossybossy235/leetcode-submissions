@@ -1,5 +1,8 @@
 package Easy;
 
+// NEEDS IMPROVEMENT
+// Take this with a grain of salt, this solution could definitely be improved
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         
