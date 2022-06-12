@@ -15,7 +15,6 @@ class Solution {
         int max = 0;
         
         int[] chars = new int[127];
-        Arrays.fill(chars, -1);
         
         for (int i = 0; i < s.length(); i++) {
             if (chars[s.charAt(i)] >= i - len) {
