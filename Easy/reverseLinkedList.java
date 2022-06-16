@@ -1,7 +1,7 @@
 /*
  * Reverse Linked List - Given the head of a singly-linked list, reverse it.
  * 
- * We recursively swap elements as we go.
+ * We recursively iterate to the end of the list, then return nodes starting from the end.
  */
 
 /**
