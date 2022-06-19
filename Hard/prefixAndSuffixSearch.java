@@ -42,7 +42,7 @@ class Trie {
     
     public void insert(String s, int index) {
         TrieNode temp = root;
-        // System.out.println(s);
+        
         for (char c : s.toCharArray()) {
             if (temp.get(c) == null)
                 temp.set(c);
