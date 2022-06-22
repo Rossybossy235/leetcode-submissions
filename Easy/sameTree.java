@@ -1,3 +1,11 @@
+/*
+ * Same Tree - Given the root nodes of two binary trees, determine whether the trees are the same.
+ * 
+ * We iterate through the tree, first checking if both nodes are null, then if either one are null, 
+ * then if their values are the same. If the results of both the left checks and right checks mean
+ * those parts of the trees are the same, we return true.
+ */
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
