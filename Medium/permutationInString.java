@@ -1,5 +1,5 @@
 /*
- * Permutations in String - Given two strings, detemine whether a permutation of the first string
+ * Permutation in String - Given two strings, detemine whether a permutation of the first string
  * exists in the second string.
  * 
  * We use an array containing the number of each character we encounter in s1 and s2 and sliding
